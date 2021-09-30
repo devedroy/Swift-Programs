@@ -15,8 +15,8 @@ print(sal)
 
 var lol:Int = 0
 for x in 0..<array_num.count-1 {
-if array_num[x] == 7 && array_num[x+1] == 7 {
-  lol = lol + 1
-}
+	if array_num[x] == 7 && array_num[x+1] == 7 {
+  		lol = lol + 1
+	}
 }
 print(lol)
